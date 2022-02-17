@@ -1,0 +1,21 @@
+/* .title .van-tab{
+    line-height: 92px;
+    font-size: 32px;
+}
+#title-tabs .van-tab{
+    line-height: 92px;
+    font-size: 28px;
+} */
+#title-tabs .van-sticky--fixed{
+    position: fixed;
+    top: 58px;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+/* .title .van-tabs--line .van-tabs__wrap{
+    height: 92px;
+}
+#title-tabs .van-tabs--line .van-tabs__wrap{
+    height: 92px;
+} */

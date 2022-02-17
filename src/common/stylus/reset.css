@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family:
+            "Helvetica Neue",
+            Helvetica,
+            "PingFang SC",
+            "Hiragino Sans GB",
+            "Microsoft YaHei",
+            "微软雅黑",
+            Arial,
+            sans-serif;
+    background: #fff;
+    font-size: 12px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -2;
+    overflow-x:hidden;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img {
+    border: 0;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+ol, ul {
+    list-style: none;
+}
+/*滚动条*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    padding-right: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #eee;
+    /*其他样式，比如圆角等*/
+}
+/*滑块样式*/
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #999;
+}
+/*当前窗口失去焦点时的滑块样式*/
+::-webkit-scrollbar-thumb:window-inactive {
+    /*background-color: transparent;*/
+    opacity: 0.5;
+}
